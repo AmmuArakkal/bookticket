@@ -1,0 +1,68 @@
+.Main{
+
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Summary{
+
+    padding: 1rem;
+    max-width: 540px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+.Seats{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    margin-top: 1.5rem;
+    
+}
+
+.SelectedSeats{
+    border-bottom: 1px solid #dbdbdb;
+    padding:0.5rem;
+
+}
+
+.SelectedSeats h3{
+    font-size: 1rem;
+}
+
+
+
+.ConfirmButton{
+
+    color: white;
+    background-color: rgb(253, 92, 119);
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    margin-top: 1rem;
+}
+
+.ConfirmButton:hover{
+    background-color: rgb(253,134,154);
+}
+
+.ConfirmationForm{
+
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    padding: 2rem 0;
+
+
+}
+
+.ConfirmationForm input{
+    padding: 0.5rem;
+}

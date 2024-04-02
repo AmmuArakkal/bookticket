@@ -1,0 +1,15 @@
+.Tier{
+margin-bottom: 2rem;
+}
+
+.Tier h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.TierRows{
+    display: flex;
+    flex-direction: column;
+    gap : 1rem;
+}
